@@ -429,7 +429,7 @@ def parse_args():
                         help="Add a grayscale effect")
     parser.add_argument("--cmapy-bg", action="store_true",
                         help="Apply colormap to background")
-    parser.add_argument("-M", "--cmapy", default="gist_yarg_r",
+    parser.add_argument("-M", "--cmapy", default=None,
                         help="Add color map")
     return parser.parse_args()
 
